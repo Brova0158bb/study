@@ -65,6 +65,7 @@ a {
 }
 
 .header input {
+    float: left;
     width: 345px;
     height: 40px;
     border: 1px solid #00a4ff;
@@ -72,4 +73,14 @@ a {
     font-size: 14px;
     color: bfbfbf;
     padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    /* background-color: #00a4ff; */
+    background-image: url(./images/btn.png);
+    /* 按钮默认有个边框，需要我们手动去掉 */
+    border: 0;
 }
