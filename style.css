@@ -96,3 +96,14 @@ a {
     font-size: 14px;
     color: #666666;
 }
+
+/* banner区域 */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 420px;
+    background: url(./images/banner2.png) no-repeat top center;
+}
