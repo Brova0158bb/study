@@ -58,7 +58,7 @@ a {
 /* Search 搜索模块 */
 .header .search {
     float: left;
-    margin-left: 50px;
+    margin-left: 70px;
     width: 412px;
     height: 42px;
     background-color: pink;
@@ -83,4 +83,12 @@ a {
     background-image: url(./images/btn.png);
     /* 按钮默认有个边框，需要我们手动去掉 */
     border: 0;
+}
+
+.header .user {
+    float: right;
+    line-height: 42px;
+    padding-right: 30px;
+    font-size: 14px;
+    color: #666666;
 }
