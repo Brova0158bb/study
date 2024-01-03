@@ -54,3 +54,22 @@ a {
     border-bottom: 2px solid #00a4ff;
     color: #00a4ff;
 }
+
+/* Search 搜索模块 */
+.header .search {
+    float: left;
+    margin-left: 50px;
+    width: 412px;
+    height: 42px;
+    background-color: pink;
+}
+
+.header input {
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    font-size: 14px;
+    color: bfbfbf;
+    padding-left: 15px;
+}
