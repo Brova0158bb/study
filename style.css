@@ -8,6 +8,12 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 body {
     background-color: #f3f5f7;
     height: 3000px;
@@ -282,4 +288,10 @@ a {
 
 .box .box-bd ul li .info span {
     color: #ff7c2d;
+}
+
+.footer {
+
+    background-color: pink;
+    height: 415px;
 }
